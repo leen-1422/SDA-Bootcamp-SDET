@@ -1,0 +1,81 @@
+1. What do you understand by software testing?
+the process of checking the quality, functionality, and performance of a software product before launching.
+2. What is static testing? When does it start and what does it cover?
+the process of  testing the software application without executing the actual code.
+static testing is performed at the early stage of software development to identify the issues in the project documents
+Types of manual methods (Inspections, Walkthroughs, Informal Reviews,Technical Review)
+3. Define Black-box testing.
+type of manual testing that is performed with no knowledge of a system's internals like testing the security, performance
+4. When should you stop the testing process?
+- Decisions from your product owners
+- Deadlines that need to be met
+- No high priority and severity bugs found/expected
+-  Completion of test case execution
+- Completion of functional and code coverage to a certain point
+5. What do verification and validation mean in software testing?
+Validation is the process of checking whether the specification captures the customer's requirements,
+while verification is the process of checking that the software meets specifications.
+6. What is a test plan and what does it include?
+how the test will be performed. This includes defining test objectives, test approach, test tools, test environment, test schedules and team responsibilities and
+7. What is meant by test coverage?
+defines what percentage of application code is tested and whether the test cases cover all the code
+8. Can we do system testing at any stage?
+No, only after the integration testing and before the user acceptance testing.
+9. What is agile testing and why is it important?
+Agile testing is a software testing practice that follows the Agile software development methodology.
+ it helps to ensure that software meets the needs of the customer. Agile teams work closely with customers to get feedback at each iteration.
+10. Is it possible to achieve 100% testing coverage? How would you ensure it?
+No,  Instead, testing teams should aim at achieving maximum test coverage and ensure that there are sufficient tests to cover the maximum of code in the application
+11. What are unit testing and integration testing?
+Unit Testing is typically performed by the developer. It is a testing method using which every independent module are tested to determine if there is any issue by the developer himself.
+Integration Testing: Integration testing is the process of testing the interface between two software units or modules.
+12. What is the difference between a test driver and a test stub?
+test stubs are programs that simulate the behaviours of software components (or modules) that a module undergoing tests depends on.
+test driver is a software component or application that initiates and controls the execution of a program under test.
+13. What do you know about data flow testing?
+ Is a type of structural testing. It is a method that is used to find the test paths of a program according to the locations of definitions and uses of variables in the program
+14. What is the purpose of the end-to-end testing?
+The goal of this form of testing is to simulate a user experience from start to finish.
+15. The probability that a server-class application hosted on the cloud is up and running for six long months without crashing is 99.99 percentage. To analyze this type of a scenario, what test you will perform?
+Reliability testing
+16. What will you do when a bug turns up during testing?
+We can run more tests to make sure that the problem has a clear description.
+17. Why is it impossible to test a program thoroughly?
+We can't test all the inputs to the program. We can't test all the combinations of inputs to the
+18. How do you test a product if the requirements are yet to be freezed?
+a test plan can be created based on the assumptions made about the product.
+19. If a product is in the production stage and one of its modules gets updated, then is it necessary to ret?
+Yes, it is necessary to perform regression testing
+20. How will you overcome the challenges faced due to the unavailability of proper documentation for testing?
+Firstly, you can communicate with the stakeholders to gather as much information as possible about the system or application under test.
+This could include talking to developers, business analysts, or product owners to understand the requirements and functionalities.
+Also, you should leverage exploratory testing techniques to uncover hidden features or potential issues.
+21. Is there any difference between retesting and regression testing?
+Retesting essentially means to test something again. And when you are regression testing, you're testing something that you've tested numerous times before.
+22. As per your understanding, list down the key challenges of software testing.
+Communication Issues.
+Lack of Resources.
+Dealing with Changes.
+Time.
+Missing Documentation.
+23. What are the different types of functional testing?
+1) Unit Testing.
+2) Integration Testing.
+3) Interface Testing.
+4) System Testing.
+5) Regression Testing.
+6) Smoke Testing.
+7) Sanity Testing.
+8) Acceptance Testing.
+24. What are functional test cases and non-functional test cases?
+Functional testing checks the application's processes against a set of requirements or specifications.
+Non-functional testing assesses application properties that aren't critical to functionality but contribute to the end-user experience,
+like performance and reliability under load.
+25. What do you understand by STLC?
+is a sequence of specific actions performed during the testing process to ensure that the software quality objectives are met.
+26. In software testing, what does a fault mean?
+ an error or defect in a program that causes it to produce incorrect or unexpected results.
+27. Difference between Bug, Defect, and Error?
+Error is a mistake made by a programmer during coding. Bug is an error detected in the development environment during testing stage. Defect is a mismatch between the expected and actual result of software development
+28. How do severity and priority relate to each other?
+Priority is a term that defines how fast we need to fix a defect. Severity is basically a parameter that denotes the total impact of a given defect on any software.
