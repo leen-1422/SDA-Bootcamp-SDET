@@ -15,7 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 //Go to the bottom of the page and click the book, name"jQuery in Action"
 
 
-public class Assignment1_JavascriptExecutor extends TestBase {
+public class assignment1_JavascriptExecutor extends TestBase {
 
     @Test
     public void doubleClickElementCheck() {
@@ -27,6 +27,7 @@ public class Assignment1_JavascriptExecutor extends TestBase {
         Actions actions = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
+        //Double-click on the blue square at the bottom of the page and then write the changed color.
 
         // It locates an <iframe> element on the page using the By.tagName locator strategy and assigns it to the dblClickElement variable.
         WebElement dblClickElement = driver.findElement(By.tagName("iframe"));
@@ -60,35 +61,17 @@ public class Assignment1_JavascriptExecutor extends TestBase {
 
         driver.switchTo().defaultContent();
 
-        /////////
 
-
+        //Go top of the page and sendKeys "Thanks to JavascriptExecutor"
         js.executeScript("window.scrollTo(0,0)");
         driver.findElement(By.name("s")).sendKeys("Thanks to JavascriptExecutor");
-        //////
 
+        //Go to the bottom of the page and click the book, name"jQuery in Action"
         WebElement jQueryBook = driver.findElement(By.xpath("//a[contains(@href,'jquery-in-action-third-edition')]"));
-
         js.executeScript("arguments[0].scrollIntoView();", jQueryBook);
         jQueryBook.click();
 
 
 
-
-
-
-
     }
-
-    @Test
-    public void sendTextsUsingJs(){
-        driver.navigate().to("https://api.jquery.com/dblclick/");
-
-                JavascriptExecutor js = (JavascriptExecutor) driver;
-                js.executeScript("window.scrollTo(0,0)");
-
-        driver.findElement(By.name("s")).sendKeys("Thanks to JavascriptExecutor");
-
-    }
-
-    }
+}
