@@ -1,4 +1,4 @@
-package testPackage;
+package tests.junit;
 
 
 //Task 2:
