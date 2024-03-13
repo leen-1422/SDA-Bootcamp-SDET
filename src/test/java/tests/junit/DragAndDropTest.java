@@ -72,24 +72,5 @@ public class DragAndDropTest extends TestBase{
 
         System.out.println(driver.manage().getCookies().size());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
