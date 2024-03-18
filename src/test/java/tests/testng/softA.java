@@ -1,10 +1,13 @@
 package tests.testng;
 
 
+import engine.CutomeListner;
 import org.openqa.selenium.By;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+@Listeners(CutomeListner.class)
 public class softA extends Tests {
     @Test
     public void softA() {
