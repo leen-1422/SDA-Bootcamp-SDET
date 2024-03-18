@@ -14,7 +14,7 @@ import java.time.Duration;
 
 @Listeners(CutomeListner.class)
 public class BasicGoogleTests extends Tests{
-    @Parameters({"search-query"})
+//    @Parameters({"search-query"})
 
     @Test(groups = {"sanityCheck", "guiTests"})
 

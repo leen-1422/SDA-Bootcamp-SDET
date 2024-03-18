@@ -53,7 +53,12 @@ public abstract class Tests {
     @AfterMethod
     public void afterMethod(){
         logger.info("Quitting Browser");
-        driver.close();
+        driver.quit();
+    }
+    @AfterClass
+    public void after(){
+
+        driver.quit();
     }
 
 }

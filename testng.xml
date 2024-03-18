@@ -1,44 +1,47 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Demo suite" verbose="1">
+<suite name="Demo suite" parallel="tests" thread-count="3">
     <test name="Chrome Test">
         <parameter name="target-browser" value="chrome"/>
         <classes>
-            <class name="tests.testng.BasicGoogleTests">
-                <parameter name="search-query" value="Clarusway"/>
-                <methods>
-                    <exclude name="assertGoogleLogoExist"/>
-                </methods>
+<!--            <class name="tests.testng.BasicGoogleTests">-->
+<!--                <parameter name="search-query" value="Clarusway"/>-->
+<!--                <methods>-->
+<!--                    <exclude name="assertGoogleLogoExist"/>-->
+<!--                </methods>-->
 
-            </class>
-            <class name="tests.testng.softA"/>
+<!--            </class>-->
+<!--            <class name="tests.testng.softA"/>-->
+            <class name="tests.Assignments.Assignment2.Q2"/>
         </classes>
     </test>
 
     <test name="Edge Test">
         <parameter name="target-browser" value="edge"/>
         <classes>
-            <class name="tests.testng.BasicGoogleTests">
-                <parameter name="search-query" value="Clarusway"/>
-                <methods>
-                    <exclude name="assertGoogleLogoExist"/>
-                </methods>
+<!--            <class name="tests.testng.BasicGoogleTests">-->
+<!--                <parameter name="search-query" value="Clarusway"/>-->
+<!--                <methods>-->
+<!--                    <exclude name="assertGoogleLogoExist"/>-->
+<!--                </methods>-->
 
-            </class>
-            <class name="tests.testng.softA"/>
+<!--            </class>-->
+<!--            <class name="tests.testng.softA"/>-->
+            <class name="tests.Assignments.Assignment2.Q2"/>
         </classes>
     </test>
 
     <test name="Firefox Test">
         <parameter name="target-browser" value="firefox"/>
         <classes>
-            <class name="tests.testng.BasicGoogleTests">
-                <parameter name="search-query" value="Clarusway"/>
-                <methods>
-                    <exclude name="assertGoogleLogoExist"/>
-                </methods>
+<!--            <class name="tests.testng.BasicGoogleTests">-->
+<!--                <parameter name="search-query" value="Clarusway"/>-->
+<!--                <methods>-->
+<!--                    <exclude name="assertGoogleLogoExist"/>-->
+<!--                </methods>-->
 
-            </class>
-            <class name="tests.testng.softA"/>
+<!--            </class>-->
+<!--            <class name="tests.testng.softA"/>-->
+            <class name="tests.Assignments.Assignment2.Q2"/>
         </classes>
     </test>
 </suite>
