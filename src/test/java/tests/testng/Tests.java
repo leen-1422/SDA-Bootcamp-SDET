@@ -46,8 +46,6 @@ public abstract class Tests {
         driver = new ChromeDriver(chromeOptions);
          logger.info("Configuring 5 second explicit wait");
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-
-
     }
 
     @AfterMethod

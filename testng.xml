@@ -11,7 +11,9 @@
 
 <!--            </class>-->
 <!--            <class name="tests.testng.softA"/>-->
-            <class name="tests.Assignments.Assignment2.Q2"/>
+<!--            <class name="tests.Assignments.Assignment2.Q2"/>-->
+            <class name="tests.Assignments.Assignment2.Q5"/>
+
         </classes>
     </test>
 
@@ -26,7 +28,8 @@
 
 <!--            </class>-->
 <!--            <class name="tests.testng.softA"/>-->
-            <class name="tests.Assignments.Assignment2.Q2"/>
+<!--            <class name="tests.Assignments.Assignment2.Q2"/>-->
+            <class name="tests.Assignments.Assignment2.Q5"/>
         </classes>
     </test>
 
@@ -41,7 +44,8 @@
 
 <!--            </class>-->
 <!--            <class name="tests.testng.softA"/>-->
-            <class name="tests.Assignments.Assignment2.Q2"/>
+<!--            <class name="tests.Assignments.Assignment2.Q2"/>-->
+            <class name="tests.Assignments.Assignment2.Q5"/>
         </classes>
     </test>
 </suite>
