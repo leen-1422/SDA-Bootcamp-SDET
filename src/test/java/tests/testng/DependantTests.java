@@ -17,6 +17,4 @@ public class DependantTests extends Tests{
     public void amazonNavigation(){
         driver.navigate().to("https://www.amazon.com/");
     }
-
-
 }
