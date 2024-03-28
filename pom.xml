@@ -78,7 +78,6 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
